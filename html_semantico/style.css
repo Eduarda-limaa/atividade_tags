@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+    margin: 2rem;
+}
+
+.banner{
+    width: 40%;
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+
+nav {
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00bfff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #00ffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    max-width: 800px;
+    text-align: left;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: #00bfff;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+    color: #00ffff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 14px;
+    color: #aaa;
+    justify-content: center;
+    display: flex;
+}
